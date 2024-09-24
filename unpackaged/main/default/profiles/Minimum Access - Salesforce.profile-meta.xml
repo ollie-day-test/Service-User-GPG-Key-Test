@@ -1655,6 +1655,9 @@
         <layout>FulfillmentOrderLineItem-Fulfillment Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Hello__c-Hello Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>LegalEntity-Legal Entity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

@@ -78,6 +78,9 @@
         <layout>AsyncOperationLog-Async Operation Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Hello__c-Hello Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Location-Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
