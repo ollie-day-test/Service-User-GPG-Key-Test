@@ -20,11 +20,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>hello4__c</field>
+                <field>hello3__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>hello3__c</field>
+                <field>hello4__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
