@@ -39,6 +39,24 @@
         <groupingString>CANCELLED</groupingString>
     </standardValue>
     <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+        <groupingString>REJECTED</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Printed</fullName>
+        <default>false</default>
+        <label>Printed</label>
+        <groupingString>FULFILLING</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Pick Complete</fullName>
+        <default>false</default>
+        <label>Pick Complete</label>
+        <groupingString>FULFILLING</groupingString>
+    </standardValue>
+    <standardValue>
         <fullName>Pack Complete</fullName>
         <default>false</default>
         <label>Pack Complete</label>
