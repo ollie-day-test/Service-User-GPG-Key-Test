@@ -4,65 +4,45 @@
         <customLabel>false</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Information</label>
+        <label>Detail Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>CategoryEnum</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>AssetActionNumber</field>
+                <field>AsyncOperationNumber</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Type</field>
+                <field>Status</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>ActionDate</field>
+                <behavior>Edit</behavior>
+                <field>SubmittedAt</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>ProductAmountChange</field>
+                <behavior>Edit</behavior>
+                <field>FinishedAt</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>EstimatedTaxChange</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>QuantityChange</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>SubtotalChange</field>
+                <behavior>Edit</behavior>
+                <field>ReferenceEntityId</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>AssetId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Category</field>
+                <behavior>Edit</behavior>
+                <field>ParentOperationId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Amount</field>
+                <field>JobType</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>AdjustmentAmountChange</field>
+                <behavior>Edit</behavior>
+                <field>StartedAt</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>ActualTaxChange</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>MrrChange</field>
+                <behavior>Edit</behavior>
+                <field>ExpiresAt</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -71,25 +51,25 @@
         <customLabel>false</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>SystemInformation</label>
+        <label>System Information</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>CreatedById</field>
+                <field>CreatedDate</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>CreatedDate</field>
+                <field>CreatedById</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>LastModifiedById</field>
+                <field>LastModifiedDate</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>LastModifiedDate</field>
+                <field>LastModifiedById</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -98,12 +78,14 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <layoutColumns />
+        <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <miniLayout>
-        <fields>CategoryEnum</fields>
-    </miniLayout>
+    <relatedLists>
+        <fields>RTEL.NAME</fields>
+        <fields>RTEL.ERROR_MESSAGE</fields>
+        <relatedList>RevenueTransactionErrorLogs</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
